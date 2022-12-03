@@ -1,6 +1,6 @@
 # -- REQUIRED LIBRARIES: --
 # Pattern: for Python 3+
-# !pip3 install pattern3
+# pip install Pattern
 #   - for python 2.7x
 #   - pip install pattern
 
@@ -22,5 +22,3 @@ class PatternModel:
         Subjectivity: measures the personal opinion and factual information contained in a text.
         """
         return sentiment(text)
-    
-    
